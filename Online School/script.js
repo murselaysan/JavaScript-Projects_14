@@ -12,9 +12,11 @@ class School {
     return this._level;
   }
 
+
   get numberOfStudents() {
     return this._numberOfStudents;
   }
+
 
   set numberOfStudents(value) {
     typeof numberOfStudents === 'number' ? this._numberOfStudents = value : console.log(`Invalid input: ${value} must be set to a Number`);
@@ -60,6 +62,7 @@ class HighSchool extends School {
     return this._sportsTeams;
   }
 }
+
 
 
 class Catalog {
